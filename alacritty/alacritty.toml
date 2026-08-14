@@ -1,0 +1,17 @@
+[general]
+import = [
+"catppuccin-macchiato.toml"
+]
+
+[window]
+decorations = "None"
+startup_mode = "Maximized"
+
+[keyboard]
+bindings = [
+{ key = "F10", action = "ToggleMaximized" },
+{ key = "F11", action = "ToggleFullscreen" }
+]
+
+[font]
+normal = { family = "CaskaydiaMonoNerdFont", style = "regular" }
