@@ -8,7 +8,7 @@ everywhere.
 - [Alacritty](https://alacritty.org/)
 - [tmux](https://github.com/tmux/tmux) (>= 3.0)
 - [Neovim](https://neovim.io/) (>= 0.9)
-- A [Nerd Font](https://www.nerdfonts.com/) (using CaskaydiaMono Nerd Font)
+- A [Nerd Font](https://www.nerdfonts.com/) (using CaskaydiaMono Nerd Font. BitstreamVera is also an option)
 - `git`
 
 ## Installation
