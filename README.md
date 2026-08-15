@@ -8,6 +8,7 @@ everywhere.
 - [Alacritty](https://alacritty.org/)
 - [tmux](https://github.com/tmux/tmux) (>= 3.0)
 - [Neovim](https://neovim.io/) (>= 0.9)
+- [Starship](https://starship.rs/)
 - A [Nerd Font](https://www.nerdfonts.com/) (using CaskaydiaMono Nerd Font. BitstreamVera is also an option)
 - `git`
 
@@ -22,6 +23,7 @@ cd ~/dotfiles
 ln -sf "$PWD/alacritty" ~/.config/alacritty
 ln -sf "$PWD/tmux/tmux.conf" ~/.tmux.conf
 ln -sf "$PWD/nvim" ~/.config/nvim
+ln -sf "$PWD/starship/starship.toml" ~/.config/starship.toml
 ```
 
 Everything else installs itself on first use:
@@ -46,6 +48,8 @@ nvim/
   lua/voref/
     core/                   # options.lua and keymaps.lua (no plugins)
     plugins/                # one file per plugin, loaded by lazy.nvim
+starship/
+  starship.toml              # prompt config
 ```
 
 ## Alacritty
@@ -95,3 +99,8 @@ Leader key: `Space`.
 | [nvim-autopairs](https://github.com/windwp/nvim-autopairs) | Auto-closes brackets/quotes. |
 | [vim-tmux-navigator](https://github.com/christoomey/vim-tmux-navigator) | Neovim side of the tmux pane navigation (see tmux section above). |
 | [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim) | Indent guides, plus a highlighted guide for the current treesitter scope (function/if/for/while/do blocks). |
+
+## Starship
+
+Prompt shows directory, git branch/state/status, command duration, time, and
+a Python virtualenv indicator, Catppuccin Macchiato colors throughout.
